@@ -11,4 +11,4 @@ dotnet restore
 dotnet run
 ```
 
-Apartir disso, execute o Insomnia ou o Postman e consuma o localhost na porta 5000 na rota **/Quiz**
+Apartir disso, execute o Insomnia ou o Postman e consuma o localhost na porta 5000 na rota GET **/Quiz**
