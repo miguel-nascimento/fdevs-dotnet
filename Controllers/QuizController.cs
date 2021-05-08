@@ -19,7 +19,7 @@ namespace fdevs_aula02.Controllers
         [HttpGet]
         public Quiz[] Get()
         {
-            var json = System.IO.File.ReadAllText(@"./Controllers/quizzes.json");
+            var json = System.IO.File.ReadAllText(@"./Mock/quizzes.json");
             Quiz[] quiz = JsonConvert.DeserializeObject<Quiz[]>(json);
 
             return quiz;
